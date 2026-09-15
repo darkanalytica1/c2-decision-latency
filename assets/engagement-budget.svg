@@ -2,10 +2,10 @@
   <title id="t">Engagement chain against a time budget</title>
   <desc id="d">Detect, track, identify, decide and effect as a chain. Below, the 48 second time to impact of an FPV drone at 150 km/h detected at 2 km fills stage by stage and leaves an 8 second margin.</desc>
   <style>
-    .serif { font-family: 'Source Serif 4', 'Source Serif Pro', Georgia, 'Times New Roman', serif; }
+    .display { font-family: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: -0.01em; }
     .sans { font-family: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
     .mono { font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    .label { font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; letter-spacing: 0.08em; fill: #7A8088; }
+    .label { font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; letter-spacing: 0.08em; fill: #6B7688; }
 
     .seg { transform-box: fill-box; transform-origin: left center; animation-duration: 12.0s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
     .threat { animation: close 12.0s linear infinite both; }
@@ -38,88 +38,88 @@
       *, *::before, *::after { animation: none !important; }
     }
   </style>
-  <rect width="1000" height="500" fill="#F6F4EF"/>
-  <path d="M 110 110 L 890 110" stroke="#5B7083" stroke-width="1.75" class="flow" fill="none"/>
+  <rect width="1000" height="500" fill="#F5F7FA"/>
+  <path d="M 110 110 L 890 110" stroke="#3E5C76" stroke-width="1.75" class="flow" fill="none"/>
   <g class="">
-    <rect x="25.0" y="64.0" width="170" height="92" rx="4" fill="#FFFFFF" stroke="#DAD6CC" stroke-width="1.5"/>
-    <rect x="25.0" y="64.0" width="170" height="3" rx="1.5" fill="#1F3A5F"/>
-    <text x="110.0" y="90.0" class="sans" font-size="15" fill="#1B1F24" text-anchor="middle" font-weight="600" >Detect</text>
-    <text x="110.0" y="110.0" class="mono" font-size="12" fill="#4A5058" text-anchor="middle" font-weight="400" >2,000 m</text>
-    <text x="110.0" y="127.0" class="mono" font-size="12" fill="#4A5058" text-anchor="middle" font-weight="400" >t = 0</text>
+    <rect x="25.0" y="64.0" width="170" height="92" rx="4" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1.5"/>
+    <rect x="25.0" y="64.0" width="170" height="3" rx="1.5" fill="#0B2545"/>
+    <text x="110.0" y="90.0" class="sans" font-size="15" fill="#0E1726" text-anchor="middle" font-weight="600" >Detect</text>
+    <text x="110.0" y="110.0" class="mono" font-size="12" fill="#3D4A5C" text-anchor="middle" font-weight="400" >2,000 m</text>
+    <text x="110.0" y="127.0" class="mono" font-size="12" fill="#3D4A5C" text-anchor="middle" font-weight="400" >t = 0</text>
   </g>
-  <rect class="pulse p0" x="21.0" y="60.0" width="178" height="100" rx="6" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+  <rect class="pulse p0" x="21.0" y="60.0" width="178" height="100" rx="6" fill="none" stroke="#0B2545" stroke-width="2"/>
   <g class="">
-    <rect x="220.0" y="64.0" width="170" height="92" rx="4" fill="#FFFFFF" stroke="#DAD6CC" stroke-width="1.5"/>
-    <rect x="220.0" y="64.0" width="170" height="3" rx="1.5" fill="#1F3A5F"/>
-    <text x="305.0" y="90.0" class="sans" font-size="15" fill="#1B1F24" text-anchor="middle" font-weight="600" >Track</text>
-    <text x="305.0" y="110.0" class="mono" font-size="12" fill="#4A5058" text-anchor="middle" font-weight="400" >confirm track</text>
-    <text x="305.0" y="127.0" class="mono" font-size="12" fill="#4A5058" text-anchor="middle" font-weight="400" >5 s</text>
+    <rect x="220.0" y="64.0" width="170" height="92" rx="4" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1.5"/>
+    <rect x="220.0" y="64.0" width="170" height="3" rx="1.5" fill="#0B2545"/>
+    <text x="305.0" y="90.0" class="sans" font-size="15" fill="#0E1726" text-anchor="middle" font-weight="600" >Track</text>
+    <text x="305.0" y="110.0" class="mono" font-size="12" fill="#3D4A5C" text-anchor="middle" font-weight="400" >confirm track</text>
+    <text x="305.0" y="127.0" class="mono" font-size="12" fill="#3D4A5C" text-anchor="middle" font-weight="400" >5 s</text>
   </g>
-  <rect class="pulse p1" x="216.0" y="60.0" width="178" height="100" rx="6" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+  <rect class="pulse p1" x="216.0" y="60.0" width="178" height="100" rx="6" fill="none" stroke="#0B2545" stroke-width="2"/>
   <g class="">
-    <rect x="415.0" y="64.0" width="170" height="92" rx="4" fill="#FFFFFF" stroke="#DAD6CC" stroke-width="1.5"/>
-    <rect x="415.0" y="64.0" width="170" height="3" rx="1.5" fill="#1F3A5F"/>
-    <text x="500.0" y="90.0" class="sans" font-size="15" fill="#1B1F24" text-anchor="middle" font-weight="600" >Identify</text>
-    <text x="500.0" y="110.0" class="mono" font-size="12" fill="#4A5058" text-anchor="middle" font-weight="400" >slew · PID</text>
-    <text x="500.0" y="127.0" class="mono" font-size="12" fill="#4A5058" text-anchor="middle" font-weight="400" >10 s</text>
+    <rect x="415.0" y="64.0" width="170" height="92" rx="4" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1.5"/>
+    <rect x="415.0" y="64.0" width="170" height="3" rx="1.5" fill="#0B2545"/>
+    <text x="500.0" y="90.0" class="sans" font-size="15" fill="#0E1726" text-anchor="middle" font-weight="600" >Identify</text>
+    <text x="500.0" y="110.0" class="mono" font-size="12" fill="#3D4A5C" text-anchor="middle" font-weight="400" >slew · PID</text>
+    <text x="500.0" y="127.0" class="mono" font-size="12" fill="#3D4A5C" text-anchor="middle" font-weight="400" >10 s</text>
   </g>
-  <rect class="pulse p2" x="411.0" y="60.0" width="178" height="100" rx="6" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+  <rect class="pulse p2" x="411.0" y="60.0" width="178" height="100" rx="6" fill="none" stroke="#0B2545" stroke-width="2"/>
   <g class="">
-    <rect x="610.0" y="64.0" width="170" height="92" rx="4" fill="#FFFFFF" stroke="#DAD6CC" stroke-width="1.5"/>
-    <rect x="610.0" y="64.0" width="170" height="3" rx="1.5" fill="#A33A2B"/>
-    <text x="695.0" y="90.0" class="sans" font-size="15" fill="#1B1F24" text-anchor="middle" font-weight="600" >Decide</text>
-    <text x="695.0" y="110.0" class="mono" font-size="12" fill="#4A5058" text-anchor="middle" font-weight="400" >ROE · authority</text>
-    <text x="695.0" y="127.0" class="mono" font-size="12" fill="#4A5058" text-anchor="middle" font-weight="400" >20 s</text>
+    <rect x="610.0" y="64.0" width="170" height="92" rx="4" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1.5"/>
+    <rect x="610.0" y="64.0" width="170" height="3" rx="1.5" fill="#8A6A1F"/>
+    <text x="695.0" y="90.0" class="sans" font-size="15" fill="#0E1726" text-anchor="middle" font-weight="600" >Decide</text>
+    <text x="695.0" y="110.0" class="mono" font-size="12" fill="#3D4A5C" text-anchor="middle" font-weight="400" >ROE · authority</text>
+    <text x="695.0" y="127.0" class="mono" font-size="12" fill="#3D4A5C" text-anchor="middle" font-weight="400" >20 s</text>
   </g>
-  <rect class="pulse p3" x="606.0" y="60.0" width="178" height="100" rx="6" fill="none" stroke="#A33A2B" stroke-width="2"/>
+  <rect class="pulse p3" x="606.0" y="60.0" width="178" height="100" rx="6" fill="none" stroke="#8A6A1F" stroke-width="2"/>
   <g class="">
-    <rect x="805.0" y="64.0" width="170" height="92" rx="4" fill="#FFFFFF" stroke="#DAD6CC" stroke-width="1.5"/>
-    <rect x="805.0" y="64.0" width="170" height="3" rx="1.5" fill="#1F3A5F"/>
-    <text x="890.0" y="90.0" class="sans" font-size="15" fill="#1B1F24" text-anchor="middle" font-weight="600" >Effect</text>
-    <text x="890.0" y="110.0" class="mono" font-size="12" fill="#4A5058" text-anchor="middle" font-weight="400" >activate</text>
-    <text x="890.0" y="127.0" class="mono" font-size="12" fill="#4A5058" text-anchor="middle" font-weight="400" >5 s</text>
+    <rect x="805.0" y="64.0" width="170" height="92" rx="4" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1.5"/>
+    <rect x="805.0" y="64.0" width="170" height="3" rx="1.5" fill="#0B2545"/>
+    <text x="890.0" y="90.0" class="sans" font-size="15" fill="#0E1726" text-anchor="middle" font-weight="600" >Effect</text>
+    <text x="890.0" y="110.0" class="mono" font-size="12" fill="#3D4A5C" text-anchor="middle" font-weight="400" >activate</text>
+    <text x="890.0" y="127.0" class="mono" font-size="12" fill="#3D4A5C" text-anchor="middle" font-weight="400" >5 s</text>
   </g>
-  <rect class="pulse p4" x="801.0" y="60.0" width="178" height="100" rx="6" fill="none" stroke="#1F3A5F" stroke-width="2"/>
-  <path d="M 203.5 104 L 211.5 110 L 203.5 116" fill="none" stroke="#5B7083" stroke-width="2" stroke-linecap="round"/>
-  <path d="M 398.5 104 L 406.5 110 L 398.5 116" fill="none" stroke="#5B7083" stroke-width="2" stroke-linecap="round"/>
-  <path d="M 593.5 104 L 601.5 110 L 593.5 116" fill="none" stroke="#5B7083" stroke-width="2" stroke-linecap="round"/>
-  <path d="M 788.5 104 L 796.5 110 L 788.5 116" fill="none" stroke="#5B7083" stroke-width="2" stroke-linecap="round"/>
-  <path d="M 890 156.0 L 890 186 L 110 186 L 110 156.0" fill="none" stroke="#DAD6CC" stroke-width="1.5" stroke-dasharray="4 5"/>
-  <path d="M 104 164.0 L 110 156.0 L 116 164.0" fill="none" stroke="#7A8088" stroke-width="1.5"/>
-  <text x="500.0" y="204.0" class="mono" font-size="12" fill="#7A8088" text-anchor="middle" font-weight="400" >assess and report feeds the next track</text>
-  <text x="80.0" y="244.0" class="mono" font-size="12" fill="#7A8088" text-anchor="start" font-weight="400" letter-spacing="0.08em">RANGE TO ASSET</text>
-  <line x1="80" y1="262" x2="920" y2="262" stroke="#DAD6CC" stroke-width="1.5"/>
-  <line x1="80.0" y1="262" x2="80.0" y2="267" stroke="#7A8088" stroke-width="1"/>
-  <text x="80.0" y="282.0" class="mono" font-size="12" fill="#7A8088" text-anchor="middle" font-weight="400" >2,000 m</text>
-  <line x1="290.0" y1="262" x2="290.0" y2="267" stroke="#7A8088" stroke-width="1"/>
-  <text x="290.0" y="282.0" class="mono" font-size="12" fill="#7A8088" text-anchor="middle" font-weight="400" >1,500 m</text>
-  <line x1="500.0" y1="262" x2="500.0" y2="267" stroke="#7A8088" stroke-width="1"/>
-  <text x="500.0" y="282.0" class="mono" font-size="12" fill="#7A8088" text-anchor="middle" font-weight="400" >1,000 m</text>
-  <line x1="710.0" y1="262" x2="710.0" y2="267" stroke="#7A8088" stroke-width="1"/>
-  <text x="710.0" y="282.0" class="mono" font-size="12" fill="#7A8088" text-anchor="middle" font-weight="400" >500 m</text>
-  <line x1="920.0" y1="262" x2="920.0" y2="267" stroke="#7A8088" stroke-width="1"/>
-  <text x="920.0" y="282.0" class="mono" font-size="12" fill="#7A8088" text-anchor="middle" font-weight="400" >0 m</text>
-  <g class="threat"><path d="M 72 254 L 88 262 L 72 270 Z" fill="#A33A2B"/></g>
-  <text x="80.0" y="316.0" class="mono" font-size="12" fill="#7A8088" text-anchor="start" font-weight="400" letter-spacing="0.06em">TIME BUDGET · T_impact = 2,000 m / 41.7 m/s = 48 s</text>
-  <rect x="80" y="330" width="840" height="44" fill="#FFFFFF" stroke="#DAD6CC" stroke-width="1.5"/>
-  <rect class="seg s0 " x="80.0" y="330" width="87.5" height="44" fill="#EDF0F3" stroke="#5B7083" stroke-width="1.5"/>
-  <text x="123.8" y="357.0" class="mono" font-size="13" fill="#1B1F24" text-anchor="middle" font-weight="500" >5 s</text>
-  <text x="123.8" y="396.0" class="mono" font-size="12" fill="#4A5058" text-anchor="middle" font-weight="400" >track</text>
-  <rect class="seg s1 " x="167.5" y="330" width="175.0" height="44" fill="#EDF0F3" stroke="#5B7083" stroke-width="1.5"/>
-  <text x="255.0" y="357.0" class="mono" font-size="13" fill="#1B1F24" text-anchor="middle" font-weight="500" >10 s</text>
-  <text x="255.0" y="396.0" class="mono" font-size="12" fill="#4A5058" text-anchor="middle" font-weight="400" >identify</text>
-  <rect class="seg s2 " x="342.5" y="330" width="350.0" height="44" fill="#F6E9E6" stroke="#A33A2B" stroke-width="1.5"/>
-  <text x="517.5" y="357.0" class="mono" font-size="13" fill="#1B1F24" text-anchor="middle" font-weight="500" >20 s</text>
-  <text x="517.5" y="396.0" class="mono" font-size="12" fill="#A33A2B" text-anchor="middle" font-weight="500" >decide</text>
-  <rect class="seg s3 " x="692.5" y="330" width="87.5" height="44" fill="#EDF0F3" stroke="#5B7083" stroke-width="1.5"/>
-  <text x="736.2" y="357.0" class="mono" font-size="13" fill="#1B1F24" text-anchor="middle" font-weight="500" >5 s</text>
-  <text x="736.2" y="396.0" class="mono" font-size="12" fill="#4A5058" text-anchor="middle" font-weight="400" >effect</text>
-  <rect class="seg s4" x="780.0" y="330" width="140.0" height="44" fill="#EAF0EB" stroke="#5E7F68" stroke-width="1.5"/>
-  <text x="850.0" y="357.0" class="mono" font-size="13" fill="#1B1F24" text-anchor="middle" font-weight="500" >8 s</text>
-  <text x="850.0" y="396.0" class="mono" font-size="12" fill="#5E7F68" text-anchor="middle" font-weight="500" >margin</text>
-  <g class="cursor"><line x1="80" y1="322" x2="80" y2="382" stroke="#1F3A5F" stroke-width="2"/></g>
+  <rect class="pulse p4" x="801.0" y="60.0" width="178" height="100" rx="6" fill="none" stroke="#0B2545" stroke-width="2"/>
+  <path d="M 203.5 104 L 211.5 110 L 203.5 116" fill="none" stroke="#3E5C76" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 398.5 104 L 406.5 110 L 398.5 116" fill="none" stroke="#3E5C76" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 593.5 104 L 601.5 110 L 593.5 116" fill="none" stroke="#3E5C76" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 788.5 104 L 796.5 110 L 788.5 116" fill="none" stroke="#3E5C76" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 890 156.0 L 890 186 L 110 186 L 110 156.0" fill="none" stroke="#D8DEE6" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <path d="M 104 164.0 L 110 156.0 L 116 164.0" fill="none" stroke="#6B7688" stroke-width="1.5"/>
+  <text x="500.0" y="204.0" class="mono" font-size="12" fill="#6B7688" text-anchor="middle" font-weight="400" >assess and report feeds the next track</text>
+  <text x="80.0" y="244.0" class="mono" font-size="12" fill="#6B7688" text-anchor="start" font-weight="400" letter-spacing="0.08em">RANGE TO ASSET</text>
+  <line x1="80" y1="262" x2="920" y2="262" stroke="#D8DEE6" stroke-width="1.5"/>
+  <line x1="80.0" y1="262" x2="80.0" y2="267" stroke="#6B7688" stroke-width="1"/>
+  <text x="80.0" y="282.0" class="mono" font-size="12" fill="#6B7688" text-anchor="middle" font-weight="400" >2,000 m</text>
+  <line x1="290.0" y1="262" x2="290.0" y2="267" stroke="#6B7688" stroke-width="1"/>
+  <text x="290.0" y="282.0" class="mono" font-size="12" fill="#6B7688" text-anchor="middle" font-weight="400" >1,500 m</text>
+  <line x1="500.0" y1="262" x2="500.0" y2="267" stroke="#6B7688" stroke-width="1"/>
+  <text x="500.0" y="282.0" class="mono" font-size="12" fill="#6B7688" text-anchor="middle" font-weight="400" >1,000 m</text>
+  <line x1="710.0" y1="262" x2="710.0" y2="267" stroke="#6B7688" stroke-width="1"/>
+  <text x="710.0" y="282.0" class="mono" font-size="12" fill="#6B7688" text-anchor="middle" font-weight="400" >500 m</text>
+  <line x1="920.0" y1="262" x2="920.0" y2="267" stroke="#6B7688" stroke-width="1"/>
+  <text x="920.0" y="282.0" class="mono" font-size="12" fill="#6B7688" text-anchor="middle" font-weight="400" >0 m</text>
+  <g class="threat"><path d="M 72 254 L 88 262 L 72 270 Z" fill="#8A6A1F"/></g>
+  <text x="80.0" y="316.0" class="mono" font-size="12" fill="#6B7688" text-anchor="start" font-weight="400" letter-spacing="0.06em">TIME BUDGET · T_impact = 2,000 m / 41.7 m/s = 48 s</text>
+  <rect x="80" y="330" width="840" height="44" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1.5"/>
+  <rect class="seg s0 " x="80.0" y="330" width="87.5" height="44" fill="#EEF2F5" stroke="#3E5C76" stroke-width="1.5"/>
+  <text x="123.8" y="357.0" class="mono" font-size="13" fill="#0E1726" text-anchor="middle" font-weight="500" >5 s</text>
+  <text x="123.8" y="396.0" class="mono" font-size="12" fill="#3D4A5C" text-anchor="middle" font-weight="400" >track</text>
+  <rect class="seg s1 " x="167.5" y="330" width="175.0" height="44" fill="#EEF2F5" stroke="#3E5C76" stroke-width="1.5"/>
+  <text x="255.0" y="357.0" class="mono" font-size="13" fill="#0E1726" text-anchor="middle" font-weight="500" >10 s</text>
+  <text x="255.0" y="396.0" class="mono" font-size="12" fill="#3D4A5C" text-anchor="middle" font-weight="400" >identify</text>
+  <rect class="seg s2 " x="342.5" y="330" width="350.0" height="44" fill="#F4EFE2" stroke="#8A6A1F" stroke-width="1.5"/>
+  <text x="517.5" y="357.0" class="mono" font-size="13" fill="#0E1726" text-anchor="middle" font-weight="500" >20 s</text>
+  <text x="517.5" y="396.0" class="mono" font-size="12" fill="#8A6A1F" text-anchor="middle" font-weight="500" >decide</text>
+  <rect class="seg s3 " x="692.5" y="330" width="87.5" height="44" fill="#EEF2F5" stroke="#3E5C76" stroke-width="1.5"/>
+  <text x="736.2" y="357.0" class="mono" font-size="13" fill="#0E1726" text-anchor="middle" font-weight="500" >5 s</text>
+  <text x="736.2" y="396.0" class="mono" font-size="12" fill="#3D4A5C" text-anchor="middle" font-weight="400" >effect</text>
+  <rect class="seg s4" x="780.0" y="330" width="140.0" height="44" fill="#E9F2F2" stroke="#2F6F73" stroke-width="1.5"/>
+  <text x="850.0" y="357.0" class="mono" font-size="13" fill="#0E1726" text-anchor="middle" font-weight="500" >8 s</text>
+  <text x="850.0" y="396.0" class="mono" font-size="12" fill="#2F6F73" text-anchor="middle" font-weight="500" >margin</text>
+  <g class="cursor"><line x1="80" y1="322" x2="80" y2="382" stroke="#0B2545" stroke-width="2"/></g>
   <g class="margin">
-    <text x="500.0" y="456.0" class="sans" font-size="14" fill="#1B1F24" text-anchor="middle" font-weight="500" >Margin M = 48 − 40 = 8 s before any effector flight time. Double the decision to 40 s and M = −12 s.</text>
-    <text x="500.0" y="480.0" class="sans" font-size="13" fill="#7A8088" text-anchor="middle" font-weight="400" >The cheapest seconds are usually pre-delegated authority and rehearsed drills, not a longer-range sensor.</text>
+    <text x="500.0" y="456.0" class="sans" font-size="14" fill="#0E1726" text-anchor="middle" font-weight="500" >Margin M = 48 − 40 = 8 s before any effector flight time. Double the decision to 40 s and M = −12 s.</text>
+    <text x="500.0" y="480.0" class="sans" font-size="13" fill="#6B7688" text-anchor="middle" font-weight="400" >The cheapest seconds are usually pre-delegated authority and rehearsed drills, not a longer-range sensor.</text>
   </g>
 </svg>
